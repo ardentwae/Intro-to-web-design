@@ -1,0 +1,14 @@
+.welcome-section {
+  width: 100%;
+  text-align: center;
+}
+
+.full-width-img {
+  width: 100%;      /* fills container */
+  height: auto;   /* maintains aspect ratio */
+  display: block;   /* removes inline spacing */
+   
+}
+h1,h2{color: blue;
+
+}
