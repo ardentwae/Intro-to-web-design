@@ -8,7 +8,126 @@ body {
 
 .welcome-section {
   width: 100%;
+  body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  background-color: rgb(186, 228, 241);
+  color: #333333;
+}
+
+.welcome-section {
+  width: 100%;
   text-align: center;
+}
+
+.full-width-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1, h2 {
+  color: #3366cc;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  background-color: rgb(186, 228, 241);
+  color: #333333;
+}
+
+.welcome-section {
+  width: 100%;
+  text-align: center;
+}
+
+.full-width-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1, h2 {
+  color: #3366cc;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  background-color: #3366cc;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+form {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+.center-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  background-color: #3366cc;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+form {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+.center-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 }
 
 .full-width-img {
