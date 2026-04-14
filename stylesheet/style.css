@@ -177,3 +177,46 @@ input, select, textarea {
   margin: 0 auto;
   padding: 0 20px;
 }
+.hero-section {
+    background-image: url("https://lh3.googleusercontent.com/gps-cs-s/APNQkAGECk-vHQKaql86nRbF1qEGCq71qpd2NiPC_jyBgoPblrcABME7MGBXYdKrewgHQAsYqxAiirZ9kmC6X_C2wdOv6RscYN9aNkr2YcPl88HD5ZiA0Sn3aTAgO3O2PaePSSBV2Rf_=s680-w680-h510-rw"); */
+    /* background-image: url("images/School Building.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.content-section {
+    background: rgb(255, 255, 255);
+    padding: 60px 20px;
+}
+.hero-section h1 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 6px black;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 1.3rem;
+}
+.hero-section {
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(107, 107, 107, 0.4);
+}
+
+.hero-section div {
+    position: relative;
+    z-index: 2;
+}
