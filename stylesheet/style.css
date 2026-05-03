@@ -265,9 +265,12 @@ nav a:hover {
     padding: 30px 0;
 }
 
+.hero-section p {
+    font-weight: bold;
+}
 
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                 url('../images/classroom.jpg');
     background-size: cover;
     background-position: center;
@@ -346,4 +349,111 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+}
+/* MY EVENT BEAUTIFICATION */
+
+
+/* ============================= */
+/* EVENTS HERO SECTION */
+/* ============================= */
+
+.events-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('../images/classroom.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.events-hero h1 {
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+.events-hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffd700;
+}
+
+/* ============================= */
+/* EVENTS GRID LAYOUT */
+/* ============================= */
+
+.events-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+/* ============================= */
+/* EVENT BOXES */
+/* ============================= */
+
+.event-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* HEADINGS */
+.event-box h2 {
+    margin-bottom: 15px;
+    color: #3366cc;
+}
+
+/* EVENT ITEMS */
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-left: 4px solid #3366cc;
+    background: #f5f9ff;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+/* DATE TAG */
+.date {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* MUTED TEXT */
+.muted {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* DROPDOWN */
+.event-box select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* NOTE BOX */
+.event-note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+    background: #eef4ff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 768px) {
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
 }
