@@ -41,6 +41,7 @@ h1, h2 {
 
 .welcome-section {
   width: 100%;
+  text-align: center;
   
 }
 
@@ -50,10 +51,11 @@ h1, h2 {
   display: block;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: #3366cc;
   margin-top: 1em;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
 nav a:hover {
@@ -85,6 +87,7 @@ input, select, textarea {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
+  text-align: center;
 }
 .center-container {
   max-width: 900px;
