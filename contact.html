@@ -23,22 +23,26 @@
 </header>
 
 <section>
-<form>
+<form action="https://formspree.io/f/xqeneqjo" method="POST">
+
 <label>Name:</label><br>
-<input type="text"><br><br>
+<input type="text" name="name" required><br><br>
 
 <label>Email:</label><br>
-<input type="email"><br><br>
+<input type="email" name="email" required><br><br>
 
 <label>Department:</label><br>
-<select>
+<select name="department">
 <option>Admissions</option>
 <option>General Inquiry</option>
 <option>Support</option>
 </select><br><br>
 
 <label>Message:</label><br>
-<textarea></textarea><br><br>
+<textarea name="message" required></textarea><br><br>
+
+<!-- Optional but useful -->
+<input type="hidden" name="_subject" value="New Contact Form Submission">
 
 <button type="submit">Send</button>
 </form>
