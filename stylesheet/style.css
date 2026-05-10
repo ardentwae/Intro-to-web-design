@@ -39,6 +39,8 @@ h1, h2 {
   color: #333333;
 }
 
+
+
 .welcome-section {
   width: 100%;
   text-align: center;
@@ -58,6 +60,8 @@ h1, h2, h3 {
   text-align: center;
 }
 
+
+
 nav a:hover {
   color: #ff6600;
 }
@@ -138,12 +142,33 @@ input, select, textarea {
   height: auto;
   display: block;
 }
-
+/* Colour controls for Colourful Containers*/
 h1, h2 {
   color: #3366cc;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
+/* ================================================== */
+/* secondary Colour controlls for visual accessibility*/
+/* ================================================== */
+h1.secondary, h2.secondary {  
+  color: #38ef7d
+}
+
+/* ================================================== */
+/* Tertiary Colour controlls for visual accessibility*/
+/* ================================================== */
+h1.tertiary, h2.tertiary {  
+  color: #ffd200
+}
+
+/* ================================================== */
+/* Tertiary Colour controlls for visual accessibility*/
+/* ================================================== */
+h1.quaternary, h2.quaternary {  
+  color: #2575fc
+}
+
 
 nav a:hover {
   color: #ff6600;
@@ -241,8 +266,8 @@ body {
 
 nav {
     background: linear-gradient(to right, #002147, #0056b3);
-    padding: 15px;
-    text-align: center;
+    padding: 8px;
+    text-align: center; 
     box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
